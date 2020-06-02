@@ -63,10 +63,36 @@ button:active {
   transform: scale(1);
 }
 
-
 footer {
   color: #EEEEEE;
   font-family: 'Indie Flower', cursive;
   margin-top: 3%;
   text-align: center;
+}
+
+/* Mobile Version */
+@media (max-width: 991px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .dice {
+    width: 40%;
+  }
+
+  .dice-1 {
+    margin-right: 20px;
+  }
+
+  .dice-2 {
+    margin-left: 20px;
+  }
+
+  .btn-container {
+    margin-top: 50px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
 }
